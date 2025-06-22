@@ -1,6 +1,7 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import AboutSection from "./components/AboutSection";
+import ProjectSection from "./components/ProjectSection";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <div className="container mt-24 px-12 py-8">
         <Hero />
         <AboutSection />
+        <ProjectSection />
       </div>
     </main>
   );
